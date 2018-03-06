@@ -5,9 +5,9 @@ https://medium.com/travis-on-docker/how-to-dockerize-your-go-golang-app-542af15c
 
 ***
 
-# Note is you use Docker Toolbox for Windows
+# Note if you use Docker Toolbox for Windows
 
-Because I was using Docker Toolbox for Windows my project need to be in `C:\Users`. 
+Because I was using Docker Toolbox for Windows my project needf to be in `C:\Users`. 
 This is due to the fact that the toolbox has limited access to Windows resources.
 
 It's kind of weird but if you are outside of `c:\Users` everything seems to work fine until the compilation time when you get an error message saying that there is no go files to compile. Just because nothing has been mouted into the volume...
